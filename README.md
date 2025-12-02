@@ -17,6 +17,7 @@ This project analyzes a heart disease dataset to explore patterns, distributions
 - Pandas 🐼
 - NumPy 🔢
 - Matplotlib 📈
+- Power BI 📊 (for enhanced visualizations)
 
 ## 🔍 Analysis Workflow
 
@@ -35,6 +36,31 @@ This project analyzes a heart disease dataset to explore patterns, distributions
    - Numeric vs `num`: boxplots for age, trestbps, chol, thalach, oldpeak
    - Categorical vs `num`: grouped bar charts for sex, cp, fbs, restecg, exang, slope, ca, thal
    - Key observations highlighted for each feature
+
+## 📸 Visualizations
+
+### Page 1 – Demographics
+
+![Page 1 – Demographics](outputs/page1_demographics.png)
+
+### Page 2 – Blood-related Clinical Data
+
+![Page 2 – Blood Data](outputs/page2_blood.png)
+
+### Page 3 – Cardiology & Heart Function
+
+![Page 3 – Cardiology](outputs/page3_cardiology.png)
+
+## 💻 Power BI Dashboard
+
+A Power BI dashboard was created to provide interactive visualizations for better exploration of relationships between features and disease severity. It includes:
+
+- Demographic distributions (age, sex, origin)
+- Blood test indicators (cholesterol, fasting blood sugar)
+- Cardiology measurements (thalach, slope, ca, thal, oldpeak)
+- Disease severity segmentation (num 0–4, renamed as No Disease → Critical)
+
+The dashboard allows filtering by feature and severity, offering a clear visual story for non-technical audiences.
 
 ## 📌 Key Findings
 
@@ -58,3 +84,4 @@ This project analyzes a heart disease dataset to explore patterns, distributions
 2. Open the Jupyter Notebook `heart_disease_analysis.ipynb`
 3. Run the cells to explore data and visualizations
 4. Review interpretations and charts for insights
+5. Open the Power BI dashboard (`Heart_Disease_Dashboard.pbix`) to interact with the data visually
